@@ -1,0 +1,22 @@
+$primary: red;
+
+h1 { color: $primary; }
+
+.light-gray-header {
+  background-color: #3b3b3b;
+}
+
+.output-screen {
+  font-size: 1.2rem;
+  min-height: 70px;
+  border: 1px solid #222;
+}
+
+.big-input {
+  height: 80px;
+  font-size: 1.3rem;
+}
+
+body {
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
